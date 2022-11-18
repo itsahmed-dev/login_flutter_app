@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(StarterApp());
+void main() => runApp(LoginApp());
 
-class StarterApp extends StatelessWidget {
-  const StarterApp({super.key});
+class LoginApp extends StatelessWidget {
+  const LoginApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Starter App',
+      title: 'Login App',
       home: HomePage(),
     );
   }
